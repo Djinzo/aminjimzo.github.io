@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>GOULZIMA Mohamed Amine</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+    <meta author="Alex B" />
+    <meta property="og:image" content="assets/preview.png" />
+
+    <link rel="shortcut icon" href="assets/icons/computer-3.png" type="image/png">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/win95.css">
+
+
+</head>
+
+<body class="windows-scrollbar">
+
+
+
+
+    <div class="start-menu" id="menu" hidden=true>
+
+        <div class="options">
+            <img src="assets/icons/computer-3.png" style="margin-right: 5px;" width="35px" /> Programes
+        </div>
+        <div class="options">
+            <img src="assets/icons/desktop-1.png" style="margin-right: 5px;" width="35px" /> Documents
+        </div>
+        <div class="options">
+            <img src="assets/icons/settings_gear-3.png" style="margin-right: 5px;" width="35px" /> Settings
+        </div>
+        <div class="options">
+            <img src="assets/icons/accessibility-3.png" style="margin-right: 5px;" width="35px" /> Find
+        </div>
+        <div class="options">
+            <img src="assets/icons/help_book_big-0.png" style="margin-right: 5px;" width="35px" /> Help
+        </div>
+        <div class="options">
+            <img src="assets/icons/executable-0.png" style="margin-right: 5px;" width="35px" /> Run
+        </div>
+        <div class="line"></div>
+        <div class="options">
+            <img src="assets/icons/shut_down_normal-0.png" style="margin-right: 5px;" width="35px" /> Shutdown
+        </div>
+
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="taskbar">
+        <div class="row" style="margin-right: 0px;">
+            <div class="col-8">
+                <a onclick="startMenu()" class="btn start-button"><img src="assets/icons/windows-0.png" class="icon-16">Start </a>
+            </div>
+            <div class="time">
+
+                10:00 PM
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<script>
+    function startMenu() {
+        var a = document.getElementById("menu");
+        if (a.hidden == true) {
+            a.hidden = false;
+        } else {
+            a.hidden = true;
+        }
+    }
+</script>
